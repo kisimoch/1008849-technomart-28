@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Сергей Прилипко](https://up.htmlacademy.ru/htmlcss/28/user/1008849).
-* Наставник: [Денис Власов](https://htmlacademy.ru/profile/amaringo).
+* Наставник: [Денис "amaringo" Власов](https://htmlacademy.ru/profile/amaringo).
 
 ---
 
