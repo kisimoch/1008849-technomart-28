@@ -47,7 +47,7 @@
 
   <main>
     <section>
-      <h1>Главная страница</h1>
+      <h1 class="visually-hidden">Главная страница</h1>
       <ul>
         <li>
           <h2>Материалы</h2>
@@ -75,7 +75,7 @@
         <p>Настоящие мужские игрушки</p>
         <a href="#">Открыть каталог</a>
       </div>
-    </section>>
+    </section>
     <section>
       <div>
         <h3>Популярные товары:</h3>
@@ -182,6 +182,28 @@
         <a href="#"><img src="img/map.png" width="300" height="158h" alt="Как проехать"></a>
         <a href="#">Заблудились? Напишите нам!</a>
         <!--Это ссылка на карту-->
+      </div>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label for="appointment-name">Ваше имя:</label>
+          <input id="appointment-name" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="appointment-email">Ваш e-mail:</label>
+          <input id="appointment-email" type="email" name="email" placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="appointment-text">Текст письма:</label>
+          <input id="appointment-text" type="text" name="text" placeholder="В свободной форме">
+        </p>
+        <button type="submit">Отправить</button>
+      </form>
+      <button type="button">Закрыть</button>
+
+      <div class="map-popup">
+        <button>Закрыть</button>
+        <a href="#"><img src="img/popup_map.png" width="300" height="158h" alt="Карта"></a>
+      </div>
     </section>
   </main>
 
@@ -230,6 +252,13 @@
       </p>
     </div>
   </footer>
+
+  <div class="in-cart">
+    <button>Закрыть</button>
+    <p>Товар добавлен в корзину!</p>
+    <a href="#">Оформить заказ</a>
+    <button>Продолжить покупки</button>
+  </div>
 
 </body>
 
