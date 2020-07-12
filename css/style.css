@@ -1,10 +1,137 @@
+:root {
+  --basic-black: #293449;
+  --basic-gray: #32425C;
+  --basic-beige: #F9F5F0;
+  --basic-light-blue: #F1F5F7;
+  --basic-light-beige: #F7F3EC;
+  --basic-blue: #F2F6F8;
+  --basic-light-gray: #F1F1F1;
+  --basic-white: #FFFFFF;
+}
+
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;  
   }
+
+body {
+  min-width: 961px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cuprum', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-menu {
+  font-size: 18px;
+  line-height: 24px;
+  background-color: var(--basic-black);
+}
+
+.site-navigation {
+  list-style: none;
+  background-color: var(--basic-gray);
+}
+
+.header-menu a,
+.site-navigation a,
+.footer-menu a {
+  color: var(--basic-white);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.header-menu a:focus,
+.header-menu a:hover {
+  background-color: #000000;
+}
+
+.about-company {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.about-company h2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.about-company-list {
+  list-style: none;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about-company-button {
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--basic-white);
+  background-color: #EE3643;
+}
+
+.footer-menu {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-white);
+  background-color: var(--basic-gray);
+}
+
+.yellow-text a {
+  color: #FFD180;
+}
+
+.red-text {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #EE3643;
+}
+
+.phone a{
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #EE3643;
+}
+
+.footer-copyright {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-white);
+  background-color: var(--basic-black);
+}
+
+.social-list {
+  list-style: none; 
+}
+
+.breadcrumbs {
+  list-style: none;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.breadcrumbs a{
+  color: #000000;
+}
+
+.manufacturers {
+  list-style: none;
+}
+
+.power {
+  list-style: none;
+}
